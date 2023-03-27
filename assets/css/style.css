@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Pangolin', cursive;
   color: #293241;
   background-color: #F9F5E7 !important;
+  margin: 0 auto;
 }
 
 /* #0D9488 */
@@ -1143,6 +1148,7 @@ section {
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
+  margin-left: 75px;
 }
 
 #footer h3 {
@@ -1192,4 +1198,10 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+@media (max-width:475px){
+  #footer{
+    margin-left: 0;
+    margin-bottom: 70px;
+  }
 }
